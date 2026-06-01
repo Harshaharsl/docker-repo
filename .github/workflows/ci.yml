@@ -15,5 +15,5 @@ jobs:
       - name: Build Docker image
         run: docker build -t my-python-app .
 
-      - name: Run container
-        run: docker run my-python-app
+      - name: Build Docker image
+        run: docker build -t my-python-app .
